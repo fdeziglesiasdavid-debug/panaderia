@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Panadería Dulce Hogar - Panes artesanales, pasteles y dulces caseros hechos con amor y tradición.">
+  <title>Panadería Dulce Hogar | Sabor Casero Cada Día</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Panadería Dulce Hogar</h1>
+    <p>El sabor casero que alegra tu día</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Panes recién horneados cada día</h2>
+    <p>Ven y disfruta de la frescura y tradición en cada bocado</p>
+  </section>
+
+  <main>
+    <section id="productos">
+      <h2>✨ Nuestros Productos ✨</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://source.unsplash.com/400x300/?bread" alt="Pan fresco">
+          <h3>Panes frescos</h3>
+          <p>Horneados cada mañana con ingredientes de calidad.</p>
+        </article>
+        <article class="card">
+          <img src="https://source.unsplash.com/400x300/?cake" alt="Pasteles">
+          <h3>Pasteles artesanales</h3>
+          <p>Sabores irresistibles para tus celebraciones especiales.</p>
+        </article>
+        <article class="card">
+          <img src="https://source.unsplash.com/400x300/?cookies" alt="Galletas">
+          <h3>Galletas y dulces</h3>
+          <p>Un toque dulce para alegrar tu día en cualquier momento.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Nosotros</h2>
+      <p style="max-width:800px;margin:auto;text-align:center">En Panadería Dulce Hogar creemos en el sabor auténtico de lo artesanal. Desde hace más de 15 años elaboramos productos frescos, hechos con amor y tradición familiar.</p>
+    </section>
+    <section id="contacto">
+      <h2>Haz tu pedido</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="mensaje" rows="4" placeholder="Escribe tu pedido o consulta" required></textarea>
+        <button type="submit">Enviar Pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center;">
+        <div>
+          <strong>Panadería Dulce Hogar</strong><br>
+          <span>Panes artesanales y repostería casera</span>
+        </div>
+        <div class="social">
+          <a href="#" aria-label="Instagram" title="Instagram">📷</a>
+          <a href="#" aria-label="WhatsApp" title="WhatsApp">💬</a>
+          <a href="#" aria-label="Facebook" title="Facebook">👍</a>
+        </div>
+      </div>
+      <div style="text-align:center;">© <span id="year"></span> Panadería Dulce Hogar — Todos los derechos reservados</div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="panaderia.js"></script>
+</body>
+</html>
